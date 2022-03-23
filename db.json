@@ -1,0 +1,52 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "dandheedge"
+  },
+  "todos": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Complete online JavaScript course",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Jog around the park 3x",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Submit report",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Create a presentation",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "Pick up laundry",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": "Complete Assignment",
+      "completed": false
+    }
+  ]
+}
